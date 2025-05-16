@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocacia Especializada</title>
+    <style>
+        /* Reset e Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background-color: #1a237e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .contato-header {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* Herói (Banner Principal) */
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .cta-button {
+            background-color: #ff5722;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+        }
+        
+        /* Seção de Benefícios */
+        .beneficios {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: white;
+        }
+        
+        .beneficios h2 {
+            color: #1a237e;
+            margin-bottom: 40px;
+            font-size: 2rem;
+        }
+        
+        .beneficios-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .beneficio-item {
+            flex: 1 1 300px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .beneficio-item img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        
+        /* Rodapé */
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        .contato-footer {
+            margin-top: 20px;
+        }
+        
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">ADVOGADO DAMIANI</div>
+        <a href="#contato" class="contato-header">FALE CONOSCO</a>
+    </header>
+    
+    <!-- Banner Principal -->
+    <section class="hero">
+        <h1>Defesa Especializada em Direito Tributário</h1>
+        <p>Proteja seu patrimônio e reduza custos tributários com estratégias jurídicas personalizadas para seu caso.</p>
+        <a href="#contato" class="cta-button">CONVERSE COM UM ESPECIALISTA</a>
+    </section>
+    
+    <!-- Benefícios -->
+    <section class="beneficios">
+        <h2>Como Podemos Ajudar Você</h2>
+        <div class="beneficios-grid">
+            <div class="beneficio-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/1570/1570887.png" alt="Ícone de escudo">
+                <h3>Defesa Tributária</h3>
+                <p>Ação para reduzir ou eliminar multas e juros abusivos.</p>
+            </div>
+            <div class="beneficio-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3132/3132693.png" alt="Ícone de gráfico">
+                <h3>Planejamento Fiscal</h3>
+                <p>Estratégias para pagar menos impostos legalmente.</p>
+            </div>
+            <div class="beneficio-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3349/3349322.png" alt="Ícone de processo">
+                <h3>Recuperação de Créditos</h3>
+                <p>Atuação em processos administrativos e judiciais.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Estamos prontos para atender suas necessidades jurídicas.</p>
+        <div class="contato-footer">
+            <p>Email: contato@damianiadv.com.br</p>
+            <p>Telefone: (11) 9999-9999</p>
+            <a href="https://wa.me/5511999999999" class="whatsapp-button">FALE CONOSCO PELO WHATSAPP</a>
+        </div>
+    </footer>
+</body>
+</html>
